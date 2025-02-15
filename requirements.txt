@@ -1,0 +1,5 @@
+fastapi[all] 
+torch
+transformers
+pillow
+uvicorn
