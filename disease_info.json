@@ -1,0 +1,1572 @@
+{
+    "Basal Cell Carcinoma": {
+        "Disease Category": "Carcinogenic",
+        "Severity Level": "Variable (Mild to Severe)",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Pearly or waxy bump on the face, ears, or neck",
+                "Flat, flesh-colored or brown scar-like lesion",
+                "Bleeding or scabbing sore that heals and returns"
+            ],
+            "Progression and Stages": "Typically slow-growing; rarely metastasizes but can cause local tissue damage if untreated."
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Prolonged exposure to ultraviolet (UV) radiation from the sun or tanning beds"
+            ],
+            "Genetic Influence": "Certain genetic syndromes, such as basal cell nevus syndrome, increase risk.",
+            "Lifestyle-related Risks": [
+                "Fair skin, light hair, and eye color",
+                "History of sunburns",
+                "Living in sunny or high-altitude climates"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "OTC options are limited; treatment typically requires medical intervention."
+            ],
+            "Prescription Medications": [
+                "Topical treatments like imiquimod or fluorouracil for superficial lesions",
+                "Surgical options including excision, Mohs surgery, or curettage and electrodessication",
+                "Radiation therapy in certain cases"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Regular skin self-examinations to detect early changes",
+                "Protecting skin from sun exposure using broad-spectrum sunscreen and protective clothing"
+            ],
+            "Skincare Recommendations": [
+                "Use gentle skin care products to avoid irritation",
+                "Moisturize regularly to maintain skin health"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "New growth or sore that doesn\u2019t heal within a few weeks",
+                "Changes in the appearance of an existing mole or spot",
+                "Any lesion that bleeds, itches, or changes in size and color"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "Darier_s Disease": {
+        "Disease Category": "Genetic Disorder",
+        "Severity Level": "Variable (Mild to Severe)",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Greasy, warty papules primarily in seborrheic areas (e.g., scalp, forehead, upper trunk)",
+                "Nail abnormalities such as red and white streaks, fragility, and V-shaped notches",
+                "Mucosal involvement, including white papules in the mouth",
+                "Possible malodor due to bacterial overgrowth in lesions"
+            ],
+            "Progression and Stages": "Symptoms often begin in late childhood to early adulthood and may fluctuate with periods of exacerbation and remission."
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Heat and humidity can exacerbate symptoms",
+                "Friction from tight clothing may worsen lesions"
+            ],
+            "Genetic Influence": "Autosomal dominant mutation in the ATP2A2 gene affecting calcium transport in skin cells.",
+            "Lifestyle-related Risks": [
+                "Stress may trigger flare-ups",
+                "Poor hygiene can lead to secondary infections"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Emollients to moisturize and soften the skin",
+                "Antiseptic washes to reduce bacterial load"
+            ],
+            "Prescription Medications": [
+                "Topical retinoids to normalize skin cell production",
+                "Oral retinoids for severe cases",
+                "Topical or systemic antibiotics for secondary infections",
+                "Topical corticosteroids to reduce inflammation"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Maintaining cool and dry skin environments",
+                "Wearing loose-fitting clothing",
+                "Stress management techniques"
+            ],
+            "Skincare Recommendations": [
+                "Regular application of moisturizers",
+                "Use of sunscreen to protect sensitive skin",
+                "Gentle skin cleansing routines"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Rapid worsening of skin lesions",
+                "Signs of secondary infection (e.g., increased redness, pus, fever)",
+                "Significant impact on quality of life"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "Epidermolysis Bullosa Pruriginosa": {
+        "Disease Category": "Genetic Disorder",
+        "Severity Level": "Severe",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Itchy, blistering skin lesions",
+                "Scarring and milia formation",
+                "Nail dystrophy",
+                "Prurigo nodularis-like lesions"
+            ],
+            "Progression and Stages": "Chronic condition with onset in childhood; lesions may persist and lead to scarring."
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Trauma or friction can trigger blister formation"
+            ],
+            "Genetic Influence": "Mutations in COL7A1 gene affecting type VII collagen.",
+            "Lifestyle-related Risks": [
+                "Activities causing skin friction or minor injuries"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Antihistamines to reduce itching"
+            ],
+            "Prescription Medications": [
+                "Topical corticosteroids to reduce inflammation",
+                "Systemic retinoids in severe cases",
+                "Antibiotics for secondary infections"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Protective dressings to prevent skin trauma",
+                "Avoiding activities that may cause skin injury"
+            ],
+            "Skincare Recommendations": [
+                "Gentle skin care routines",
+                "Regular moisturizing to prevent dryness"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Development of new or worsening blisters",
+                "Signs of infection in lesions",
+                "Difficulty in daily activities due to skin condition"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "Herpes Simplex": {
+        "Disease Category": "Viral Infection",
+        "Severity Level": "Variable (Mild to Moderate)",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Painful, blistering rash on the lips or genital area",
+                "Tingling or itching sensation before the appearance of blisters",
+                "Fever and swollen lymph nodes during initial outbreak"
+            ],
+            "Progression and Stages": "Initial infection may be severe, followed by periods of latency and recurrent outbreaks."
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Direct contact with infected secretions"
+            ],
+            "Genetic Influence": "No significant genetic predisposition identified.",
+            "Lifestyle-related Risks": [
+                "Unprotected sexual contact",
+                "Sharing personal items like lip balm or razors"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Topical anesthetics to relieve pain"
+            ],
+            "Prescription Medications": [
+                "Antiviral medications such as acyclovir, valacyclovir, or famciclovir to reduce severity and frequency of outbreaks"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Applying cool compresses to affected areas",
+                "Managing stress to prevent recurrences"
+            ],
+            "Skincare Recommendations": [
+                "Keep affected areas clean and dry",
+                "Avoid picking at blisters to prevent secondary infections"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Frequent or severe outbreaks",
+                "Symptoms spreading to the eyes",
+                "Difficulty urinating during an outbreak"
+            ],
+            "Recommended Specialist": "Dermatologist or Infectious Disease Specialist"
+        }
+    },
+    "Impetigo": {
+        "Disease Category": "Bacterial Infection",
+        "Severity Level": "Mild",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Red sores that quickly rupture, ooze for a few days, and then form a yellowish-brown crust",
+                "Itching and soreness"
+            ],
+            "Progression and Stages": "Often begins as a red sore near the nose or mouth and can spread to other areas through contact."
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Warm, humid conditions",
+                "Crowded living conditions"
+            ],
+            "Genetic Influence": "No significant genetic predisposition identified.",
+            "Lifestyle-related Risks": [
+                "Poor hygiene",
+                "Participating in contact sports"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Antibacterial soaps to cleanse affected areas"
+            ],
+            "Prescription Medications": [
+                "Topical antibiotics like mupirocin",
+                "Oral antibiotics for extensive cases"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Keeping the skin clean and dry",
+                "Avoiding scratching to prevent spread"
+            ],
+            "Skincare Recommendations": [
+                "Regular handwashing",
+                "Covering sores with gauze to prevent transmission"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Sores not healing with basic hygiene measures",
+                "Signs of systemic infection like fever"
+            ],
+            "Recommended Specialist": "Dermatologist or Primary Care Physician"
+        }
+    },
+    "Larva Migrans": {
+        "Disease Category": "Parasitic Infection",
+        "Severity Level": "Mild to Moderate",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Itchy, winding rash that moves over time",
+                "Red, raised tracks on the skin"
+            ],
+            "Progression and Stages": "The larvae migrate through the skin, causing visible tracks and intense itching."
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Walking barefoot on contaminated soil or sand"
+            ],
+            "Genetic Influence": "No significant genetic predisposition identified.",
+            "Lifestyle-related Risks": [
+                "Traveling to tropical or subtropical regions",
+                "Contact with moist, sandy areas contaminated with animal feces"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Antihistamines to reduce itching"
+            ],
+            "Prescription Medications": [
+                "Antiparasitic medications like albendazole or ivermectin"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Avoid scratching to prevent secondary infections",
+                "Wearing protective footwear in endemic areas"
+            ],
+            "Skincare Recommendations": [
+                "Keep affected areas clean",
+                "Apply soothing lotions to alleviate itching"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Rapid progression of the rash",
+                "Signs of secondary infection"
+            ],
+            "Recommended Specialist": "Dermatologist or Infectious Disease Specialist"
+        }
+    },
+    "Leprosy Borderline": {
+        "Disease Category": "Bacterial Infection",
+        "Severity Level": "Moderate",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Skin lesions with decreased sensation",
+                "Numbness in affected areas",
+                "Muscle weakness"
+            ],
+            "Progression and Stages": "May progress to more severe forms if untreated, leading to nerve damage and deformities."
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Prolonged close contact with untreated individuals"
+            ],
+            "Genetic Influence": "Certain genetic factors may increase susceptibility.",
+            "Lifestyle-related Risks": [
+                "Living in endemic areas",
+                "Poor socioeconomic conditions"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "No effective OTC treatments; medical intervention required"
+            ],
+            "Prescription Medications": [
+                "Multidrug therapy including dapsone, rifampicin, and clofazimine"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Regular monitoring for new lesions",
+                "Protecting numb areas from injury"
+            ],
+            "Skincare Recommendations": [
+                "Moisturizing to prevent dryness and cracking",
+                "Inspecting skin daily for injuries"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Development of new skin lesions",
+                "Numbness or tingling in extremities"
+            ],
+            "Recommended Specialist": "Dermatologist or Infectious Disease Specialist"
+        }
+    },
+    "Leprosy Lepromatous": {
+        "Disease Category": "Bacterial Infection",
+        "Severity Level": "Severe",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Symmetric skin lesions including macules, papules, nodules, or plaques",
+                "Peripheral neuropathy leading to numbness and muscle weakness",
+                "Loss of eyebrows and eyelashes",
+                "Gynecomastia in males"
+            ],
+            "Progression and Stages": "Without treatment, the disease can progress, leading to extensive skin involvement, nerve damage, and involvement of other organs such as kidneys and testes."
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Prolonged close contact with untreated individuals"
+            ],
+            "Genetic Influence": "Certain genetic factors may increase susceptibility.",
+            "Lifestyle-related Risks": [
+                "Living in endemic areas",
+                "Poor socioeconomic conditions"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "No effective OTC treatments; medical intervention required"
+            ],
+            "Prescription Medications": [
+                "Multidrug therapy including dapsone, rifampicin, and clofazimine"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Regular monitoring for new lesions",
+                "Protecting numb areas from injury"
+            ],
+            "Skincare Recommendations": [
+                "Moisturizing to prevent dryness and cracking",
+                "Inspecting skin daily for injuries"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Development of new skin lesions",
+                "Numbness or tingling in extremities"
+            ],
+            "Recommended Specialist": "Dermatologist or Infectious Disease Specialist"
+        }
+    },
+    "Lichen Planus": {
+        "Disease Category": "Autoimmune Disorder",
+        "Severity Level": "Mild to Moderate",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Purplish, itchy, flat-topped bumps on the skin",
+                "Lacy white patches in the mouth",
+                "Painful sores in the genital area",
+                "Hair loss and scalp discoloration"
+            ],
+            "Progression and Stages": "The condition may persist for months to years, with potential for recurrence. Oral and genital lesions may become chronic."
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Exposure to certain medications or chemicals"
+            ],
+            "Genetic Influence": "A genetic predisposition may exist in some individuals.",
+            "Lifestyle-related Risks": [
+                "Stress",
+                "Hepatitis C infection"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Antihistamines to reduce itching"
+            ],
+            "Prescription Medications": [
+                "Topical corticosteroids",
+                "Oral corticosteroids for severe cases",
+                "Immune response modifiers"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Applying cool compresses to affected areas",
+                "Avoiding triggers such as certain medications or stress"
+            ],
+            "Skincare Recommendations": [
+                "Using gentle skin care products",
+                "Avoiding scratching to prevent worsening of lesions"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Severe itching or discomfort",
+                "Lesions spreading or not improving with home care"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "Lupus Erythematosus Chronicus Discoides": {
+        "Disease Category": "Autoimmune Disorder",
+        "Severity Level": "Moderate",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Red, disk-shaped, scaly patches on the skin",
+                "Lesions commonly on the face, scalp, and ears",
+                "Hair loss in affected areas",
+                "Potential scarring"
+            ],
+            "Progression and Stages": "Lesions may persist for years and can lead to permanent scarring and pigment changes if untreated."
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Sun exposure"
+            ],
+            "Genetic Influence": "Family history of autoimmune diseases may increase risk.",
+            "Lifestyle-related Risks": [
+                "Smoking",
+                "Hormonal factors"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "NSAIDs for pain and inflammation"
+            ],
+            "Prescription Medications": [
+                "Topical corticosteroids",
+                "Antimalarial drugs like hydroxychloroquine",
+                "Immunosuppressive agents in severe cases"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Avoiding sun exposure and using sunscreen",
+                "Quitting smoking"
+            ],
+            "Skincare Recommendations": [
+                "Gentle skin care routines",
+                "Regular moisturizing to prevent dryness"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Development of new or worsening lesions",
+                "Signs of infection in affected areas"
+            ],
+            "Recommended Specialist": "Dermatologist or Rheumatologist"
+        }
+    },
+    "Melanoma": {
+        "Disease Category": "Carcinogenic",
+        "Severity Level": "Severe",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "New or changing moles",
+                "Asymmetry, irregular borders, multiple colors, diameter over 6mm",
+                "Itching, bleeding, or crusting of a mole"
+            ],
+            "Progression and Stages": "Early stages are localized to the skin; advanced stages may involve lymph nodes and other organs."
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Excessive UV radiation exposure"
+            ],
+            "Genetic Influence": "Family history of melanoma increases risk.",
+            "Lifestyle-related Risks": [
+                "Use of tanning beds",
+                "History of sunburns"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "No effective OTC treatments; medical intervention required"
+            ],
+            "Prescription Medications": [
+                "Surgical excision of the lesion",
+                "Immunotherapy or targeted therapy for advanced cases"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Regular skin self-examinations",
+                "Protecting skin from sun exposure"
+            ],
+            "Skincare Recommendations": [
+                "Using broad-spectrum sunscreen",
+                "Wearing protective clothing outdoors"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Noticing a new or changing mole",
+                "Mole that bleeds or becomes painful"
+            ],
+            "Recommended Specialist": "Dermatologist or Oncologist"
+        }
+    },
+    "Mycosis Fungoides": {
+        "Disease Category": "Lymphoma (Cancer)",
+        "Severity Level": "Variable (Indolent to Aggressive)",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Patches: Flat, scaly, and itchy lesions resembling eczema or psoriasis",
+                "Plaques: Raised, thicker lesions that may be red or purple",
+                "Tumors: Large nodules that may ulcerate",
+                "Skin redness covering large areas (erythroderma)"
+            ],
+            "Progression and Stages": [
+                "Patch stage: Early, with flat, scaly lesions",
+                "Plaque stage: Thicker, raised lesions",
+                "Tumor stage: Development of tumors, potential spread to lymph nodes and internal organs"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Exposure to certain chemicals (e.g., pesticides, solvents)"
+            ],
+            "Genetic Influence": "Potential genetic mutations affecting T-cell function",
+            "Lifestyle-related Risks": [
+                "Age over 50",
+                "Male gender",
+                "History of dermatitis"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Emollients to moisturize skin",
+                "Topical corticosteroids for mild inflammation"
+            ],
+            "Prescription Medications": [
+                "Topical chemotherapy agents (e.g., mechlorethamine)",
+                "Phototherapy (UV light treatment)",
+                "Systemic therapies for advanced stages (e.g., interferons, retinoids)"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Regular skin hydration",
+                "Avoiding triggers that worsen symptoms"
+            ],
+            "Skincare Recommendations": [
+                "Gentle cleansing routines",
+                "Avoiding harsh soaps and irritants"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Rapid progression of skin lesions",
+                "Development of tumors or ulcerations"
+            ],
+            "Recommended Specialist": "Dermatologist or Oncologist"
+        }
+    },
+    "Neurofibromatosis": {
+        "Disease Category": "Genetic Disorder",
+        "Severity Level": "Variable (Mild to Severe)",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Multiple caf\u00e9-au-lait spots (light brown skin patches)",
+                "Neurofibromas: Soft, benign tumors under the skin",
+                "Freckling in armpits or groin area",
+                "Lisch nodules: Tiny bumps on the iris of the eye"
+            ],
+            "Progression and Stages": [
+                "Childhood: Appearance of caf\u00e9-au-lait spots and freckling",
+                "Adolescence to adulthood: Development of neurofibromas and potential complications"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": "Not typically associated with environmental factors",
+            "Genetic Influence": "Mutations in NF1 or NF2 genes; autosomal dominant inheritance",
+            "Lifestyle-related Risks": "No specific lifestyle-related risks identified"
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Pain relievers for discomfort"
+            ],
+            "Prescription Medications": [
+                "Surgical removal of problematic tumors",
+                "Targeted therapies for specific complications"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Regular monitoring for changes in tumors",
+                "Genetic counseling for affected individuals and families"
+            ],
+            "Skincare Recommendations": [
+                "Protecting skin from injury to prevent complications",
+                "Monitoring skin changes regularly"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Rapid growth or pain in neurofibromas",
+                "Neurological symptoms like vision changes or balance issues"
+            ],
+            "Recommended Specialist": "Geneticist or Neurologist"
+        }
+    },
+    "Pityriasis Rosea": {
+        "Disease Category": "Viral Skin Infection",
+        "Severity Level": "Mild",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Initial herald patch: A single, large, pink or tan oval patch on the torso, upper arms, thighs, or neck",
+                "Subsequent smaller lesions: Multiple smaller patches following the herald patch, often forming a pattern resembling drooping pine-tree branches",
+                "Mild itching, which may worsen with heat or stress"
+            ],
+            "Progression and Stages": [
+                "Herald patch appears first and may be present for a few days to a week before additional spots develop",
+                "Secondary rash develops, lasting about six to nine weeks, and typically resolves without scarring"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Potential viral triggers, possibly linked to human herpesviruses 6, 7, and 8"
+            ],
+            "Genetic Influence": "No significant genetic predisposition identified",
+            "Lifestyle-related Risks": [
+                "More common in individuals aged 10 to 35 years",
+                "Women are slightly more susceptible than men"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Antihistamines to alleviate itching",
+                "Topical calamine lotion for soothing irritated skin"
+            ],
+            "Prescription Medications": [
+                "Topical corticosteroids for severe itching",
+                "Antiviral medications in persistent or severe cases"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Taking lukewarm baths and avoiding hot water to reduce itching",
+                "Wearing loose-fitting, cotton clothing to prevent skin irritation",
+                "Reducing stress, as it may exacerbate symptoms"
+            ],
+            "Skincare Recommendations": [
+                "Gentle cleansing with mild soaps",
+                "Avoiding the use of harsh or fragranced skincare products"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "If the rash persists beyond 12 weeks",
+                "Signs of secondary infection, such as increased redness, swelling, or pus",
+                "Severe itching unrelieved by OTC treatments"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "Porokeratosis Actinic": {
+        "Disease Category": "Genetic Skin Disorder",
+        "Severity Level": "Mild to Moderate",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Multiple small, brownish patches with a distinctive keratotic rim",
+                "Lesions predominantly on sun-exposed areas, especially the lower arms and legs",
+                "Dry, scaly texture of the affected skin"
+            ],
+            "Progression and Stages": [
+                "Lesions often become more prominent in summer due to increased sun exposure",
+                "Typically, lesions remain benign but require monitoring for potential malignant transformation"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Chronic sun exposure",
+                "Immunosuppression"
+            ],
+            "Genetic Influence": "May be inherited in an autosomal dominant manner; some cases linked to mutations in the MVK or SART3 genes",
+            "Lifestyle-related Risks": [
+                "More common in individuals aged 35 to 40 years and older",
+                "Higher prevalence in women and people of European descent"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Emollients to moisturize and soften the skin",
+                "Topical keratolytic agents to reduce scaling"
+            ],
+            "Prescription Medications": [
+                "Topical retinoids to promote cell turnover",
+                "5-fluorouracil cream for lesion reduction",
+                "Laser therapy for cosmetic improvement"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Regular use of broad-spectrum sunscreens to prevent lesion development",
+                "Wearing protective clothing to minimize sun exposure"
+            ],
+            "Skincare Recommendations": [
+                "Gentle skin care routines to avoid irritation",
+                "Avoiding known skin irritants and trauma to affected areas"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Rapid increase in the number or size of lesions",
+                "Development of pain, ulceration, or bleeding in lesions"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "Psoriasis": {
+        "Disease Category": "Chronic Inflammatory Skin Condition",
+        "Severity Level": "Mild to Severe",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Red patches of skin covered with thick, silvery scales",
+                "Dry, cracked skin that may bleed",
+                "Itching, burning, or soreness",
+                "Thickened or ridged nails",
+                "Swollen and stiff joints"
+            ],
+            "Progression and Stages": [
+                "Plaque psoriasis: Most common form, characterized by raised, red patches with silvery scales",
+                "Guttate psoriasis: Small, drop-shaped lesions",
+                "Inverse psoriasis: Smooth, red patches in skin folds",
+                "Pustular psoriasis: White pustules surrounded by red skin",
+                "Erythrodermic psoriasis: Severe form causing widespread redness and shedding of skin"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Infections such as strep throat",
+                "Injury to the skin",
+                "Stress",
+                "Smoking",
+                "Heavy alcohol consumption"
+            ],
+            "Genetic Influence": "Family history of psoriasis increases risk",
+            "Lifestyle-related Risks": [
+                "Obesity",
+                "Certain medications (e.g., lithium, beta-blockers)"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Topical corticosteroids",
+                "Salicylic acid shampoos for scalp psoriasis"
+            ],
+            "Prescription Medications": [
+                "Topical retinoids",
+                "Biologic agents",
+                "Methotrexate",
+                "Cyclosporine"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Regular moisturizing",
+                "Gentle, non-irritating skin care products",
+                "Stress management techniques"
+            ],
+            "Skincare Recommendations": [
+                "Avoid harsh soaps and detergents",
+                "Use lukewarm water for bathing",
+                "Apply emollients immediately after bathing"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Severe pain or discomfort",
+                "Signs of infection, such as redness, warmth, and pus",
+                "Joint problems, such as pain, swelling, or inability to perform daily tasks"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "Tinea Corporis": {
+        "Disease Category": "Fungal Skin Infection",
+        "Severity Level": "Mild to Moderate",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Ring-shaped, red, scaly patches with clear centers",
+                "Itching",
+                "Spreading of the rash to other body parts"
+            ],
+            "Progression and Stages": [
+                "Initial small, red, and scaly area",
+                "Expansion into a ring-shaped lesion",
+                "Multiple rings may develop and overlap"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Warm, humid climates",
+                "Close contact with infected individuals or animals",
+                "Sharing personal items like towels or clothing"
+            ],
+            "Genetic Influence": "No significant genetic predisposition",
+            "Lifestyle-related Risks": [
+                "Excessive sweating",
+                "Wearing tight or restrictive clothing",
+                "Participating in contact sports"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Topical antifungal creams containing clotrimazole or terbinafine"
+            ],
+            "Prescription Medications": [
+                "Oral antifungal medications for severe or extensive infections"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Keeping the skin clean and dry",
+                "Avoiding sharing personal items",
+                "Washing bedding and clothing regularly"
+            ],
+            "Skincare Recommendations": [
+                "Wearing loose-fitting, breathable clothing",
+                "Using antifungal powders to keep areas dry"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Rash does not improve with OTC treatments",
+                "Signs of secondary bacterial infection",
+                "Infection involves the scalp or extensive areas of the body"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "Tinea Nigra": {
+        "Disease Category": "Fungal Infection",
+        "Severity Level": "Mild",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Brown to black painless patches on the palms or soles",
+                "Well-defined, flat, and irregularly shaped lesions",
+                "No scaling or inflammation"
+            ],
+            "Progression and Stages": [
+                "Slow enlargement of the lesion",
+                "Typically remains localized to one area"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Exposure to contaminated soil or decaying vegetation",
+                "Warm, coastal regions"
+            ],
+            "Genetic Influence": "No significant genetic predisposition",
+            "Lifestyle-related Risks": [
+                "Walking barefoot in contaminated areas",
+                "Poor hygiene practices"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Topical antifungal agents like miconazole or clotrimazole"
+            ],
+            "Prescription Medications": [
+                "Stronger topical antifungals if OTC treatments are ineffective"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Keeping affected areas clean and dry",
+                "Avoiding contact with contaminated sources"
+            ],
+            "Skincare Recommendations": [
+                "Regular washing of hands and feet",
+                "Using protective footwear in endemic areas"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Lesion not responding to treatment",
+                "Uncertainty about the diagnosis",
+                "Signs of secondary infection"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "seborrheic keratosis": {
+        "Disease Category": "Benign Skin Lesion",
+        "Severity Level": "Mild",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Round or oval-shaped waxy or rough bump, typically on the face, chest, shoulders, or back",
+                "Flat growth or slightly raised bump with a scaly surface, often with a \"pasted on\" appearance",
+                "Varied size, from very small to more than 1 inch (2.5 centimeters) across",
+                "Color ranging from light tan to brown or black",
+                "Itchiness or irritation, especially if clothing rubs against it"
+            ],
+            "Progression and Stages": [
+                "Lesions develop gradually over time",
+                "May start as small, rough bumps and thicken or darken",
+                "Generally remain benign without progressing to cancer"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Sun exposure may play a role in development"
+            ],
+            "Genetic Influence": "Family history can increase susceptibility",
+            "Lifestyle-related Risks": [
+                "More common in individuals over 50 years of age",
+                "Slightly higher prevalence in males"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Not typically effective for removal"
+            ],
+            "Prescription Medications": [
+                "Not usually required unless for cosmetic reasons or irritation"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Monitoring lesions for changes",
+                "Avoiding picking or scratching to prevent irritation"
+            ],
+            "Skincare Recommendations": [
+                "Using gentle skin care products to avoid irritation",
+                "Applying moisturizers to reduce dryness"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Lesions that bleed, itch excessively, or become irritated",
+                "Rapid changes in size, color, or shape",
+                "Uncertainty about the diagnosis"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "squamous cell carcinoma": {
+        "Disease Category": "Skin Cancer",
+        "Severity Level": "Moderate to Severe",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Firm, red nodule on sun-exposed areas such as the face, ears, neck, lips, and backs of hands",
+                "Flat sore with a scaly crust",
+                "New sore or raised area on an old scar or ulcer",
+                "Rough, scaly patch on the lip that may evolve to an open sore",
+                "Red sore or rough patch inside the mouth",
+                "Red, raised patch or wart-like sore on or in the anus or on the genitals"
+            ],
+            "Progression and Stages": [
+                "Stage 0: Cancer confined to the epidermis (in situ)",
+                "Stage I: Tumor less than 2 centimeters, no spread to lymph nodes",
+                "Stage II: Tumor larger than 2 centimeters, no spread to lymph nodes",
+                "Stage III: Cancer has spread to nearby lymph nodes",
+                "Stage IV: Cancer has spread to distant organs or tissues"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Chronic exposure to ultraviolet (UV) radiation from sunlight or tanning beds",
+                "Exposure to toxic substances like arsenic"
+            ],
+            "Genetic Influence": "Fair skin, light-colored eyes, and blond or red hair increase susceptibility",
+            "Lifestyle-related Risks": [
+                "History of sunburns",
+                "Use of tanning beds",
+                "Older age",
+                "Weakened immune system due to medical conditions or immunosuppressive medications"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Not applicable; medical treatment required"
+            ],
+            "Prescription Medications": [
+                "Topical chemotherapeutic agents like 5-fluorouracil for superficial lesions",
+                "Immune response modifiers such as imiquimod"
+            ],
+            "Medical Procedures": [
+                "Surgical excision to remove the tumor",
+                "Mohs surgery for high-risk or cosmetically sensitive areas",
+                "Radiation therapy for cases where surgery is not an option",
+                "Cryotherapy for small, superficial lesions"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Regular skin self-examinations to detect new or changing lesions",
+                "Protecting skin from sun exposure by wearing protective clothing and using broad-spectrum sunscreen with SPF 30 or higher",
+                "Avoiding tanning beds"
+            ],
+            "Skincare Recommendations": [
+                "Using gentle, fragrance-free cleansers and moisturizers",
+                "Avoiding products that may irritate the skin"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "A sore or lesion that doesn't heal",
+                "Changes in an existing mole or spot",
+                "New growths or suspicious changes in the skin"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "Tungiasis": {
+        "Disease Category": "Parasitic Infestation",
+        "Severity Level": "Moderate",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Itchy, painful lesions on the feet, especially around toes",
+                "Black dot at the center of a swollen, red lesion",
+                "Inflammation and ulceration in severe cases"
+            ],
+            "Progression and Stages": [
+                "Initial penetration by the flea",
+                "Development of a small nodule",
+                "Enlargement as the flea swells with eggs",
+                "Natural expulsion or removal of the flea"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Walking barefoot in sandy, rural areas",
+                "Tropical and subtropical regions"
+            ],
+            "Genetic Influence": "No significant genetic predisposition",
+            "Lifestyle-related Risks": [
+                "Living in or traveling to endemic areas",
+                "Inadequate housing conditions"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Antiseptic solutions to clean the lesion"
+            ],
+            "Prescription Medications": [
+                "Topical antibiotics to prevent secondary infection",
+                "Surgical removal of the embedded flea"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Wearing protective footwear",
+                "Avoiding sitting or lying on sandy ground"
+            ],
+            "Skincare Recommendations": [
+                "Regular inspection of feet for early lesions",
+                "Keeping feet clean and dry"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Multiple or severe lesions",
+                "Signs of secondary infection",
+                "Difficulty in removing the flea"
+            ],
+            "Recommended Specialist": "Dermatologist or Infectious Disease Specialist"
+        }
+    },
+    "Hailey-Hailey Disease": {
+        "Disease Category": "Genetic Skin Disorder",
+        "Severity Level": "Moderate",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Painful blisters and erosions in skin folds (e.g., armpits, groin, neck)",
+                "Itching and burning sensations",
+                "Recurrent flare-ups, especially in warm and humid conditions",
+                "Possible secondary infections in affected areas"
+            ],
+            "Progression and Stages": [
+                "Onset typically in the second or third decade of life",
+                "Periods of remission and exacerbation",
+                "Lesions may become chronic without proper management"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Heat and sweating",
+                "Friction from clothing or skin-to-skin contact"
+            ],
+            "Genetic Influence": "Mutation in the ATP2C1 gene affecting calcium transport in skin cells",
+            "Lifestyle-related Risks": [
+                "Activities leading to excessive sweating",
+                "Wearing tight or non-breathable clothing"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Topical antiseptics to prevent infection"
+            ],
+            "Prescription Medications": [
+                "Topical corticosteroids to reduce inflammation",
+                "Antibiotics for secondary bacterial infections",
+                "Antifungal agents if fungal infection is present"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Keeping affected areas cool and dry",
+                "Wearing loose-fitting, breathable clothing",
+                "Avoiding known triggers such as heat and friction"
+            ],
+            "Skincare Recommendations": [
+                "Gentle cleansing of affected areas",
+                "Regular application of emollients to maintain skin barrier"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Severe or widespread lesions",
+                "Signs of secondary infection (e.g., increased redness, swelling, pus)",
+                "Lack of response to initial treatments"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "Leprosy Tuberculoid": {
+        "Disease Category": "Bacterial Infection",
+        "Severity Level": "Moderate",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Hypopigmented or reddish skin patches with loss of sensation",
+                "Numbness or tingling in affected areas",
+                "Muscle weakness"
+            ],
+            "Progression and Stages": [
+                "Slow progression over months to years",
+                "Potential nerve damage if untreated"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Close contact with untreated individuals in endemic areas"
+            ],
+            "Genetic Influence": "Genetic susceptibility may play a role",
+            "Lifestyle-related Risks": [
+                "Living in areas with higher prevalence of leprosy",
+                "Poor socioeconomic conditions"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Not applicable; specific antibiotic therapy required"
+            ],
+            "Prescription Medications": [
+                "Multidrug therapy (MDT) including dapsone and rifampicin"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Regular monitoring for new lesions or symptoms",
+                "Educating close contacts about the disease"
+            ],
+            "Skincare Recommendations": [
+                "Protecting numb areas from injury",
+                "Maintaining good hygiene practices"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Development of skin patches with loss of sensation",
+                "Signs of nerve involvement such as numbness or weakness"
+            ],
+            "Recommended Specialist": "Infectious Disease Specialist or Dermatologist"
+        }
+    },
+    "Molluscum Contagiosum": {
+        "Disease Category": "Viral Infection",
+        "Severity Level": "Mild",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Small, firm, flesh-colored or pink papules with a central dimple",
+                "Lesions commonly appear on the face, trunk, and limbs",
+                "Usually painless but may itch"
+            ],
+            "Progression and Stages": [
+                "Lesions develop within 2-7 weeks after exposure",
+                "May persist for several months to years if untreated",
+                "Eventually resolve spontaneously"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Direct skin-to-skin contact with infected individuals",
+                "Contact with contaminated objects like towels or clothing"
+            ],
+            "Genetic Influence": "No known genetic predisposition",
+            "Lifestyle-related Risks": [
+                "Participation in contact sports",
+                "Immunocompromised status"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Topical agents containing salicylic acid"
+            ],
+            "Prescription Medications": [
+                "Topical therapies such as tretinoin or imiquimod",
+                "Procedural treatments like cryotherapy or curettage"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Avoiding scratching or picking at lesions",
+                "Keeping affected areas clean and covered"
+            ],
+            "Skincare Recommendations": [
+                "Regular handwashing",
+                "Avoiding sharing personal items"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Lesions that become red, swollen, or painful",
+                "Development of numerous or large lesions",
+                "Lesions persisting beyond a few months"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "actinic keratosis": {
+        "Disease Category": "Precancerous Skin Lesion",
+        "Severity Level": "Mild to Moderate",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Rough, scaly patches on sun-exposed areas such as the face, ears, neck, scalp, chest, backs of hands, or lips",
+                "Lesions may be flat or slightly raised, often with a dry or rough texture",
+                "Color varies from pink to red to brown",
+                "Itching or burning sensation in the affected area"
+            ],
+            "Progression and Stages": [
+                "Early lesions may be small and feel like sandpaper",
+                "Lesions can enlarge and become more noticeable over time",
+                "Potential progression to squamous cell carcinoma if left untreated"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Chronic sun exposure",
+                "Use of tanning beds"
+            ],
+            "Genetic Influence": "Fair skin, light-colored eyes, and blond or red hair increase susceptibility",
+            "Lifestyle-related Risks": [
+                "History of sunburns",
+                "Older age",
+                "Living in sunny climates",
+                "Immunosuppression (e.g., organ transplant recipients)"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Topical creams containing alpha-hydroxy acids to exfoliate the skin"
+            ],
+            "Prescription Medications": [
+                "Topical treatments such as 5-fluorouracil, imiquimod, or diclofenac",
+                "Procedures like cryotherapy (freezing), laser therapy, or photodynamic therapy"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Regular skin self-examinations to monitor for changes",
+                "Wearing protective clothing and broad-spectrum sunscreen with SPF 30 or higher",
+                "Avoiding sun exposure during peak hours"
+            ],
+            "Skincare Recommendations": [
+                "Using gentle, fragrance-free cleansers and moisturizers",
+                "Avoiding products that may irritate the skin"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Lesions that are tender, enlarging, or bleeding",
+                "Multiple lesions developing rapidly",
+                "Any changes in the appearance of existing lesions"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "dermatofibroma": {
+        "Disease Category": "Benign Skin Tumor",
+        "Severity Level": "Mild",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Firm, raised nodule on the skin, often on the legs or arms",
+                "Color ranges from pink to brown",
+                "Lesion may dimple inward when pinched (Fitzpatrick sign)",
+                "Usually asymptomatic but can be itchy or tender"
+            ],
+            "Progression and Stages": [
+                "Lesions typically remain stable in size",
+                "May become darker over time",
+                "Generally do not resolve spontaneously"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Minor skin injuries such as insect bites or trauma"
+            ],
+            "Genetic Influence": "No significant genetic predisposition",
+            "Lifestyle-related Risks": [
+                "More common in women than men",
+                "Typically develops in adulthood"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Topical corticosteroids to reduce itching if present"
+            ],
+            "Prescription Medications": [
+                "Not typically required unless symptomatic"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Monitoring the lesion for changes",
+                "Avoiding unnecessary trauma to the area"
+            ],
+            "Skincare Recommendations": [
+                "Using sunscreen to prevent hyperpigmentation",
+                "Moisturizing the area to maintain skin health"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Rapid growth or change in appearance",
+                "Persistent pain or bleeding",
+                "Uncertainty about the diagnosis"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "nevus": {
+        "Disease Category": "Benign Pigmented Skin Lesion",
+        "Severity Level": "Mild",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Small, pigmented spot on the skin, color ranging from flesh-toned to dark brown or black",
+                "Can be flat or raised",
+                "Usually round or oval with smooth borders",
+                "Typically less than 6 millimeters in diameter"
+            ],
+            "Progression and Stages": [
+                "May appear during childhood or adolescence",
+                "Some moles may change slowly over time",
+                "Most remain benign, but changes in size, shape, or color can indicate malignancy"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Sun exposure can increase the number of moles"
+            ],
+            "Genetic Influence": "Family history of moles or melanoma increases risk",
+            "Lifestyle-related Risks": [
+                "Fair skin and light hair",
+                "History of sunburns",
+                "Use of tanning beds"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Not applicable for mole removal"
+            ],
+            "Prescription Medications": [
+                "Not typically used; surgical removal if necessary"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Regular monitoring for changes using the ABCDEs of melanoma (Asymmetry, Border, Color, Diameter, Evolving)",
+                "Protecting skin from sun exposure with clothing and sunscreen"
+            ],
+            "Skincare Recommendations": [
+                "Avoiding tanning beds",
+                "Using broad-spectrum sunscreen daily"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Changes in size, shape, color, or elevation",
+                "New moles appearing after age 30",
+                "Moles that itch, bleed, or become painful"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "Papilomatosis Confluentes And Reticulate": {
+        "Disease Category": "Genetic Skin Disorder",
+        "Severity Level": "Mild to Moderate",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Dark, wart-like papules merging into reticulated patterns",
+                "Lesions commonly on the neck, chest, and back",
+                "Mild itching or cosmetic concerns"
+            ],
+            "Progression and Stages": "Lesions may increase in number over time but often remain benign"
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": "Not well-established",
+            "Genetic Influence": "Possible genetic predisposition",
+            "Lifestyle-related Risks": "No specific lifestyle-related risks identified"
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Keratolytic agents to help remove lesions"
+            ],
+            "Prescription Medications": [
+                "Topical retinoids to reduce lesion formation",
+                "Laser therapy for cosmetic improvement"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Maintaining good hygiene",
+                "Avoiding skin irritation"
+            ],
+            "Skincare Recommendations": [
+                "Gentle skin care products",
+                "Regular moisturizing to prevent dryness"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Rapid increase in lesion size or number",
+                "Signs of infection or significant discomfort"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "Pediculosis Capitis": {
+        "Disease Category": "Parasitic Infestation",
+        "Severity Level": "Mild",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Intense itching of the scalp",
+                "Visible lice on the scalp and hair",
+                "Nits (lice eggs) attached to hair shafts",
+                "Sores on the scalp from scratching"
+            ],
+            "Progression and Stages": [
+                "Initial infestation with adult lice",
+                "Laying of eggs (nits) on hair shafts",
+                "Hatching of nits into nymphs",
+                "Maturation of nymphs into adult lice"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Close contact with an infested person",
+                "Sharing personal items like combs, hats, or pillows"
+            ],
+            "Genetic Influence": "No genetic predisposition",
+            "Lifestyle-related Risks": [
+                "Attending schools or daycare centers",
+                "Overcrowded living conditions"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Topical pediculicides containing permethrin or pyrethrin"
+            ],
+            "Prescription Medications": [
+                "Oral ivermectin for resistant cases",
+                "Topical malathion or benzyl alcohol"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Manual removal of lice and nits with a fine-toothed comb",
+                "Washing bedding and clothing in hot water",
+                "Avoiding sharing personal items"
+            ],
+            "Skincare Recommendations": [
+                "Regular scalp inspections, especially in children",
+                "Maintaining personal hygiene"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Persistent infestation despite treatment",
+                "Signs of secondary bacterial infection (e.g., redness, swelling, pus)"
+            ],
+            "Recommended Specialist": "Dermatologist or Primary Care Physician"
+        }
+    },
+    "pigmented benign keratosis": {
+        "Disease Category": "Benign Skin Tumor",
+        "Severity Level": "Mild",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Round or oval-shaped waxy or rough bump on the skin",
+                "Lesions may be tan, brown, or black",
+                "Typically appear on the face, chest, shoulders, or back",
+                "Usually painless but may itch"
+            ],
+            "Progression and Stages": [
+                "Lesions develop gradually over time",
+                "May become more raised and wart-like",
+                "Generally remain benign without malignant transformation"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Prolonged sun exposure"
+            ],
+            "Genetic Influence": "Family history increases susceptibility",
+            "Lifestyle-related Risks": [
+                "Aging (more common after age 40)",
+                "Friction from clothing"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "No effective OTC treatments; medical procedures are preferred"
+            ],
+            "Prescription Medications": [
+                "Topical hydrogen peroxide solution (40%) applied by a healthcare provider"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Monitoring lesions for changes",
+                "Protecting skin from excessive sun exposure"
+            ],
+            "Skincare Recommendations": [
+                "Regular use of sunscreen",
+                "Wearing protective clothing to minimize sun exposure"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Rapidly growing or changing lesions",
+                "Lesions that bleed or become irritated"
+            ],
+            "Recommended Specialist": "Dermatologist"
+        }
+    },
+    "vascular lesion": {
+        "Disease Category": "Vascular Malformation",
+        "Severity Level": "Varies (Mild to Severe)",
+        "Symptoms Overview": {
+            "Common Symptoms": [
+                "Visible red, blue, or purple marks on the skin",
+                "Swelling or puffiness in the affected area",
+                "Potential pain or discomfort",
+                "Lesions may be present at birth or develop later"
+            ],
+            "Progression and Stages": [
+                "Lesions may enlarge or change over time",
+                "Some remain stable, while others may worsen, especially during hormonal changes or trauma"
+            ]
+        },
+        "Possible Causes & Risk Factors": {
+            "Environmental Factors": [
+                "Not typically influenced by environmental factors"
+            ],
+            "Genetic Influence": "Some vascular malformations are hereditary",
+            "Lifestyle-related Risks": [
+                "Hormonal changes (e.g., puberty, pregnancy) may exacerbate symptoms"
+            ]
+        },
+        "Suggested Treatment & Remedies": {
+            "Over-the-Counter (OTC) Medications": [
+                "Not applicable; treatment usually requires medical intervention"
+            ],
+            "Prescription Medications": [
+                "Sclerotherapy to shrink the lesion",
+                "Laser therapy to reduce discoloration"
+            ],
+            "Home Remedies & Lifestyle Changes": [
+                "Elevating the affected area to reduce swelling",
+                "Avoiding trauma to the lesion"
+            ],
+            "Skincare Recommendations": [
+                "Gentle skin care to prevent irritation",
+                "Monitoring for any changes in the lesion"
+            ]
+        },
+        "When to See a Doctor?": {
+            "Indications for Urgent Medical Consultation": [
+                "Rapid growth or change in the lesion",
+                "Pain, bleeding, or ulceration of the lesion"
+            ],
+            "Recommended Specialist": "Vascular Specialist or Dermatologist"
+        }
+    }
+}

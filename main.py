@@ -1,17 +1,34 @@
+
+
+import os
+import uuid
+import io
+import cv2
+import json
+import torch
+import base64
+import numpy as np
+from PIL import Image
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
 from transformers import AutoModelForImageClassification, AutoImageProcessor
-from PIL import Image
-import io
-import torch
+
+# Import segmentation function from image_highlight.py
+from image_highlight import segment_and_highlight
 
 # Initialize FastAPI app
 app = FastAPI()
+
+# # Load the model and image processor from the saved directory
+# model_dir = "./saved_model"
+# image_processor = AutoImageProcessor.from_pretrained(model_dir)
+# model = AutoModelForImageClassification.from_pretrained(model_dir)
 
 # Load the model and image processor
 repo_name = "Jayanth2002/dinov2-base-finetuned-SkinDisease"
 image_processor = AutoImageProcessor.from_pretrained(repo_name)
 model = AutoModelForImageClassification.from_pretrained(repo_name)
+
 
 # Define class names
 class_names = [
@@ -24,24 +41,55 @@ class_names = [
     'squamous cell carcinoma', 'vascular lesion'
 ]
 
+# Load disease information from JSON file
+with open('disease_info.json', 'r') as f:
+    disease_info = json.load(f)
+
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
     try:
-        # Read and process the uploaded image
-        image = Image.open(io.BytesIO(await file.read()))
-        encoding = image_processor(image.convert("RGB"), return_tensors="pt")
-
-        # Make a prediction
+        # Read the uploaded image into a PIL Image
+        pil_image = Image.open(io.BytesIO(await file.read()))
+        
+        # Prepare image for prediction
+        encoding = image_processor(pil_image.convert("RGB"), return_tensors="pt")
         with torch.no_grad():
             outputs = model(**encoding)
             logits = outputs.logits
-
-        # Get predicted class
+        
+        # Get prediction and probabilities
+        probabilities = torch.nn.functional.softmax(logits, dim=-1)[0].tolist()
         predicted_class_idx = logits.argmax(-1).item()
         prediction = class_names[predicted_class_idx]
-
-        return JSONResponse(content={"prediction": prediction})
-
+        disease_data = disease_info.get(prediction, {"description": "Information not available."})
+        top3_probabilities = sorted(zip(class_names, probabilities), key=lambda x: x[1], reverse=True)[:3]
+        
+        # Save the uploaded image temporarily (so the segmentation function can read it from disk)
+        temp_filename = f"temp_{uuid.uuid4().hex}.jpg"
+        pil_image.save(temp_filename)
+        
+        # Call the segmentation and highlighting function from image_highlight.py
+        highlighted_cv_image = segment_and_highlight(temp_filename, k=2)
+        
+        # Remove the temporary file
+        os.remove(temp_filename)
+        
+        # Encode the highlighted image as PNG and then as a base64 string
+        success, buffer = cv2.imencode('.png', highlighted_cv_image)
+        if not success:
+            raise Exception("Could not encode image")
+        highlighted_image_b64 = base64.b64encode(buffer).decode('utf-8')
+        
+        # Build the JSON response with prediction, probabilities, disease info, and the highlighted image data
+        response_data = {
+            "prediction": prediction,
+            "top_probabilities": {name: prob for name, prob in top3_probabilities},
+            **disease_data,
+            "highlighted_image": highlighted_image_b64  # The client can decode this base64 PNG image
+        }
+        
+        return JSONResponse(content=response_data)
+    
     except Exception as e:
         return JSONResponse(content={"error": f"Error processing image: {str(e)}"}, status_code=400)
 

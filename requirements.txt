@@ -3,3 +3,9 @@ torch
 transformers
 pillow
 uvicorn
+numpy 
+opencv-python 
+scikit-learn 
+scikit-image 
+matplotlib
+mahotas
