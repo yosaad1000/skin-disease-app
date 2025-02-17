@@ -1,9 +1,9 @@
-
 import cv2
 import numpy as np
 from sklearn.cluster import KMeans
 from skimage.feature import local_binary_pattern
 import matplotlib.pyplot as plt
+from PIL import Image, ImageDraw
 
 def extract_lbp_features(image):
     # Convert to grayscale
@@ -17,25 +17,15 @@ def extract_lbp_features(image):
     lbp = lbp / lbp.max()
     return lbp
 
-def fill_holes(mask):
-    # Invert mask: holes become white
-    inverted_mask = cv2.bitwise_not(mask)
-    # Flood fill from point (0, 0)
-    h, w = inverted_mask.shape[:2]
-    flood_filled = inverted_mask.copy()
-    mask_floodfill = np.zeros((h + 2, w + 2), np.uint8)
-    cv2.floodFill(flood_filled, mask_floodfill, (0, 0), 255)
-    # Invert flood-filled image
-    flood_filled_inv = cv2.bitwise_not(flood_filled)
-    # Combine with original mask to fill holes
-    filled_mask = mask | flood_filled_inv
-    return filled_mask
-
 def segment_and_highlight(image_path, k=2):
     # Load image
     image = cv2.imread(image_path)
     if image is None:
         raise FileNotFoundError(f"Image at path '{image_path}' not found.")
+    
+    # Convert to PIL for better image manipulation
+    pil_image = Image.open(image_path).convert("RGB")
+    draw = ImageDraw.Draw(pil_image, "RGBA")
     
     # Extract LBP features
     lbp_features = extract_lbp_features(image)
@@ -54,38 +44,28 @@ def segment_and_highlight(image_path, k=2):
     segmented_image = labels.reshape((height, width))
     
     # Highlight the anomalous region
-    # Assuming the lesion is in the minority cluster
     unique, counts = np.unique(labels, return_counts=True)
-    lesion_cluster = unique[np.argmin(counts)]
+    lesion_cluster = unique[np.argmin(counts)]  # Assuming lesion is the smallest cluster
     mask = (segmented_image == lesion_cluster).astype(np.uint8) * 255
     
-    # Fill holes in the mask
-    filled_mask = fill_holes(mask)
+    # Find contours of the lesion
+    contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     
-    # Create an overlay
-    overlay = image.copy()
-    affected_area=0
-    total_area=0
-    overlay[filled_mask == 255] = (0, 255, 0)  # Red color for the lesion area
-    for row in mask:
-        for num in row:
-            if num == 255:
-                affected_area+=1
-            total_area+=1
-    # Blend the original image with the overlay
-    alpha = 0.4 # Transparency factor
-    affected_area_percentage = affected_area/total_area*100
-    highlighted_image = cv2.addWeighted(overlay, alpha, image, 1 - alpha, 0)
-    print(filled_mask)
-    print(affected_area_percentage)
-    return highlighted_image , affected_area_percentage
+    # Draw contours using PIL
+    for contour in contours:
+        if len(contour) >= 2:  # Ensure the contour has at least two points
+            points = [(point[0][0], point[0][1]) for point in contour]
+            draw.line(points + [points[0]], fill="black", width=3)  # Outline in black
+            draw.polygon(points, outline="black", fill=(255, 0, 0, 100))  # Highlight in red with transparency
+    
+    return pil_image
 
 if __name__ == "__main__":
     try:
         result_image = segment_and_highlight('images melanoma.jpeg')
         # Display the result
-        plt.imshow(cv2.cvtColor(result_image, cv2.COLOR_BGR2RGB))
-        plt.title('Highlighted Segmented Area without Gaps')
+        plt.imshow(result_image)
+        plt.title('Outlined and Highlighted Lesion Area')
         plt.axis('off')
         plt.show()
     except Exception as e:
