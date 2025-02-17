@@ -64,13 +64,21 @@ def segment_and_highlight(image_path, k=2):
     
     # Create an overlay
     overlay = image.copy()
-    overlay[filled_mask == 255] = (0, 0, 255)  # Red color for the lesion area
-    
+    affected_area=0
+    total_area=0
+    overlay[filled_mask == 255] = (0, 255, 0)  # Red color for the lesion area
+    for row in mask:
+        for num in row:
+            if num == 255:
+                affected_area+=1
+            total_area+=1
     # Blend the original image with the overlay
-    alpha = 0.5  # Transparency factor
+    alpha = 0.4 # Transparency factor
+    affected_area_percentage = affected_area/total_area*100
     highlighted_image = cv2.addWeighted(overlay, alpha, image, 1 - alpha, 0)
-    
-    return highlighted_image
+    print(filled_mask)
+    print(affected_area_percentage)
+    return highlighted_image , affected_area_percentage
 
 if __name__ == "__main__":
     try:

@@ -19,7 +19,7 @@ from image_highlight import segment_and_highlight
 # Initialize FastAPI app
 app = FastAPI()
 
-# # Load the model and image processor from the saved directory
+# Load the model and image processor from the saved directory
 # model_dir = "./saved_model"
 # image_processor = AutoImageProcessor.from_pretrained(model_dir)
 # model = AutoModelForImageClassification.from_pretrained(model_dir)
@@ -69,7 +69,7 @@ async def predict(file: UploadFile = File(...)):
         pil_image.save(temp_filename)
         
         # Call the segmentation and highlighting function from image_highlight.py
-        highlighted_cv_image = segment_and_highlight(temp_filename, k=2)
+        highlighted_cv_image , affected_area_percentage = segment_and_highlight(temp_filename, k=2)
         
         # Remove the temporary file
         os.remove(temp_filename)
@@ -85,7 +85,8 @@ async def predict(file: UploadFile = File(...)):
             "prediction": prediction,
             "top_probabilities": {name: prob for name, prob in top3_probabilities},
             **disease_data,
-            "highlighted_image": highlighted_image_b64  # The client can decode this base64 PNG image
+            "highlighted_image": highlighted_image_b64, # The client can decode this base64 PNG image
+            "affected_area_percentage": affected_area_percentage
         }
         
         return JSONResponse(content=response_data)
